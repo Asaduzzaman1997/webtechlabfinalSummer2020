@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:400,500,600,700');
+
+/* =================================================
+             -----Google Fonts End -----
+    ================================================= */
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ol,
+ul,
+li,
+img,
+.navbar {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* =================================================
+              ------Common CSS end-----
+    ================================================= */
+
+.navbar-collapse {
+    margin-left: 80px;
+}
+
+.header .main-menu .search {
+    border: none;
+    background: none;
+    outline: none;
+    /* border-bottom: 1px solid red; */
+}
+
+.header .nav-memu .nav-link {
+    color: white;
+    transition: .3s all linear;
+}
+
+.header .nav-memu .active .nav-link,
+.header .nav-memu .nav-link:focus,
+.header .nav-memu .nav-link:hover {
+    color: red;
+}
+
+.header .background-image {
+    background: url('../images/h-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0px ;
+
+}
+
+
+.header .background-image .hero-section .poster{
+  padding-top: 50px;
+}
+.header .background-image .hero-section ul li {
+    margin-right: 15px;
+}
+
+.header .background-image .hero-section ul {
+    margin-top: 40px;
+}
+
+.header .background-image .hero-section h3 {
+    margin: 10px 0px 20px 0px;
+}
+.header .background-image .hero-section .b-img{
+  padding-top: 50px;
+}
+
+
+.slider-part {
+    background-color: black;
+}
+
+.img-h {
+    padding: 20px 0px 20px 0px;
+    background-color: #040e19;
+}
+
+.img-h h4 {
+    color: white;
+}
+
+.movie-section {
+    background-color: #020d18;
+}
+.movie-section h4{
+  color: white;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.portfolio-menu {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.portfolio-menu ul li {
+    display: inline-block;
+    background-color: #15202b;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s all linear;
+    margin-bottom: 6px;
+    color: white;
+}
+
+.portfolio-menu ul li.active,
+.portfolio-menu ul li:hover {
+    background-color: #fe0f20;
+    color: white;
+}
+
+.portfolio-item .item {
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.portfolio-item .item img {
+    height: 250px;
+    width: 230px;
+    margin-left: 100px;
+}
+
+.portfolio-item .item .des {
+    height: 100px;
+    width: 230px;
+    margin-left: 100px;
+    background-color: #041221;
+    transition: .3s all linear;
+}
+
+.portfolio-item .item img:hover,
+.portfolio-item .item .des:hover {
+    border: 1.5px solid #30336b;
+}
+
+.portfolio-item .item .des h6 {
+    color: white;
+}
+
+
+
+#slider {
+    background: url(../images/bg-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#slider .overly {
+    padding: 88px 0px;
+}
+
+#slider .s-content .s-btn a {
+    margin-right: 10px;
+}
+
+#slider .s-content .s-btn {
+    margin-top: 20px;
+}
+
+#slider .s-content h3,
+#slider .s-content p {
+    margin: 15px 0px 15px 0px;
+}
+
+.movie-add{
+	background-color: #0c1118;
+}
+.movie-add .m-add{
+	padding-top: 20px;
+}
+.movie-add h3{
+	padding-bottom: 20px;
+}
+.movie-add ul li{
+	padding: 40px 15px 40px 0px;
+}
+#s-two {
+    background: url(../images/h2-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#s-two .overly {
+    padding: 88px 0px;
+}
+
+#s-two .s-content .s-btn a {
+    margin-right: 10px;
+}
+
+#s-two .s-content .s-btn {
+    margin-top: 20px;
+}
+
+#s-two .s-content h3,
+#s-two .s-content p {
+    margin: 15px 0px 15px 0px;
+}
+/* #slider .overly .s-btn{
+    margin-top: 34px;
+}
+#slider .overly .s-btn a {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    margin-left: 20px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-style: 14px;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+#slider .overly .s-btn a:hover {
+    background: #0872b9;
+    border: 1px solid #0872b9;
+
+
+} */
+.movie-news{
+    padding: 50px 0px;
+    background-color: #020d18;
+    color: #f1f2f6;
+}
+.movie-news .mn-left{
+    border-right: 1px solid #dfe4ea;
+}
+.movie-news .mn-left h3{
+    margin-top: 30px;
+}
+.movie-news .mn-left p{
+    margin: 25px 0px;
+}
+.movie-news .mn-right .mn{
+    margin-top: 16px;
+}
+.movie-news .mn-left h5 a{
+    color: white;
+}
+
+.blog-section{
+    background-color: #020d18;
+    padding: 30px 0px;
+}
+.blog-section .b-item{
+    position: relative;
+}
+.blog-section .b-item .i-overlay{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background: rgba(0,0,0, .3);
+    top: 0;
+    right: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+.blog-section .b-item .b-overlay{
+    position: absolute;
+    height:25%;
+    width: 100%;
+    background: rgba(0,0,0, .7);
+    /* top: 0;
+    right: 0; */
+    bottom: 0;
+    right: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: all linear 0.3s;
+}
+.blog-section .b-item .b-overlay:hover{
+    height: 30%;
+}
+.blog-section .b-item .b-overlay p{
+    color: white;
+}
+.blog-section .b-button{
+    margin-top: 30px;
+}
+
+.f-footer{
+    background: #000b15;
+}
+.f-footer .footer-content{
+    padding: 20px 0px 0px;
+    overflow: hidden;
+}
+.f-footer .footer-content img{
+    margin-bottom: 32px;
+    /*height: inherit;
+    width: inherit;*/
+}
+/*.f-footer .footer-content img:hover{
+    transform: scale(1.2);
+}*/
+.f-footer .footer-content p{
+    color: #bfbfbf;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.f-footer .footer-content .footer-p{
+    margin-bottom: 34px;
+}
+.f-footer .footer-content h2{
+    font-size: 16px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.f-footer .footer-content .info .h{
+    margin-bottom: 20px;
+}
+.f-footer .footer-content .info{
+    margin-top: 54px;
+}
+.f-footer .footer-content .info i{
+    color: white;
+    height: 36px;
+    width: 36px;
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5bc5f4;
+    margin-right: 10px;
+}
+.f-footer .footer-content h5{
+    margin-bottom: 26px;
+    color: white;
+    font-size: 13px;
+    transition: all linear .3s;
+}
+.f-footer .footer-content h5:hover{
+    color: #5bc5f4; 
+}
+
+/* =================================================
+          ------Footer CSS end-----
+   ================================================= */
+.footer-last {
+    background: black;
+}
+.footer-last .last{
+    padding: 30px 0px;
+}
+.footer-last .last span{
+    color: #5bc5f4;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+.footer-last h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #f1f1f1;
+}
